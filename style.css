@@ -94,13 +94,81 @@ nav li {
 .main-nav a {
 	color: #494f29;
 }
+.bg {
+    width:1030px;
+    height:1188px;
+     background: #ffffff;
+    border: 1px solid #e4ded1;
+	margin:130px 40px 40px 40px;
+    position: absolute;
+}
+
+#slider{
+    width:942px;
+    height:412px;
+    margin: 40px;
+    
+    
+}
+ h1{
+   position: absolute;
+   font-size: 30px;
+   color:#f3efe4;
+   top:166px;
+   left: 95px;
+   }
+
+
+
+
+span {
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	
+}
+
+#slider p {
+    position: absolute;      
+	top:230px;
+	left: 95px;
+    color:#f3efe4;
+    width:641px;
+    height:70px;
+    font-size: 17px;
+    
+}
+
+#slider form {
+   position: relative;
+   top:-120px;
+   left: 55px;
+    
+    
+}
+
+#slider button {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 0px #d08000;
+  -moz-box-shadow: 0px 3px 0px #d08000;
+  box-shadow: 0px 3px 0px #d08000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  background: #e8930c;
+  padding: 16px 33px 30px 33px;
+  text-decoration: none;
+    
+}
+
+#slider button:hover {
+  background: #f64b00;
+  text-decoration: none;
+}
 
 #leftsidebar{
-    margin-top: 620px;
-    float: left;
-    width: 200px;
-  
-    /*position: relative;*/
+    position: relative;
+      
 }
 
 .box li {   
@@ -140,7 +208,42 @@ menu a {
     font-weight: bold;
 }
    
+section {
+    width:630px;
+    height:690px;
+    
+}
 
+
+figure {
+    float:left;
+	margin: 40px;
+	
+}
+
+figure img {
+	display: block;
+    float:left;
+	/*border: 1px solid #fff;
+	outline: 1px solid #c9c9c9;*/
+}
+
+.block {
+    overflow: hidden;
+    width: 690px;
+    
+}
+.block  p{
+  clear: both;
+  width: 435px;
+  margin: 20px;
+   
+}
+.block  h2 {
+    float: left;
+    margin-right: 20px;
+    color:#d98d1b;
+}
 
 /*ФУТЕР*/
 
